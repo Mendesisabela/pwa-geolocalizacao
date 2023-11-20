@@ -42,8 +42,11 @@ padding: 0;
 color: #333;
 }
 
-.botao{
-background-color: rgba(69, 71, 163, 0.3);
+
+
+
+.button{
+background-color: rgb(69, 71, 163, 0.3);
 border: none;
 color: white;
 padding: 15px 32px;
@@ -52,4 +55,11 @@ text-decoration: none;
 display: inline-block;
 font-size: 16px;
 Width: 100%;
+cursor: pointer;
+}
+
+.button:hover{
+    transition: 1s ease-in-out;
+  background: #4F95DA;
+      
 }
